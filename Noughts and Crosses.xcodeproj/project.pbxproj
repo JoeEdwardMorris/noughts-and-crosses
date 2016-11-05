@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD48154B1D6431AA008F3EC9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48154A1D6431AA008F3EC9 /* main.swift */; };
+		DD4815521D64601D008F3EC9 /* physicalBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4815511D64601D008F3EC9 /* physicalBoard.swift */; };
+		DD4815541D646133008F3EC9 /* modelBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4815531D646133008F3EC9 /* modelBoard.swift */; };
+		DD4815561D646370008F3EC9 /* textInputOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4815551D646370008F3EC9 /* textInputOutput.swift */; };
+		DD4815581D6464F9008F3EC9 /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4815571D6464F9008F3EC9 /* game.swift */; };
+		DD48155A1D646530008F3EC9 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4815591D646530008F3EC9 /* player.swift */; };
+		DD48155C1D64F869008F3EC9 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48155B1D64F869008F3EC9 /* Simulation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD4815451D6431A9008F3EC9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD4815471D6431AA008F3EC9 /* Noughts and Crosses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Noughts and Crosses"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD48154A1D6431AA008F3EC9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DD4815511D64601D008F3EC9 /* physicalBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = physicalBoard.swift; sourceTree = "<group>"; };
+		DD4815531D646133008F3EC9 /* modelBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelBoard.swift; sourceTree = "<group>"; };
+		DD4815551D646370008F3EC9 /* textInputOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textInputOutput.swift; sourceTree = "<group>"; };
+		DD4815571D6464F9008F3EC9 /* game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
+		DD4815591D646530008F3EC9 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		DD48155B1D64F869008F3EC9 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4815441D6431A9008F3EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD48153E1D6431A9008F3EC9 = {
+			isa = PBXGroup;
+			children = (
+				DD4815491D6431AA008F3EC9 /* Noughts and Crosses */,
+				DD4815481D6431AA008F3EC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4815481D6431AA008F3EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4815471D6431AA008F3EC9 /* Noughts and Crosses */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4815491D6431AA008F3EC9 /* Noughts and Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				DD48154A1D6431AA008F3EC9 /* main.swift */,
+				DD4815571D6464F9008F3EC9 /* game.swift */,
+				DD4815551D646370008F3EC9 /* textInputOutput.swift */,
+				DD4815511D64601D008F3EC9 /* physicalBoard.swift */,
+				DD4815591D646530008F3EC9 /* player.swift */,
+				DD48155B1D64F869008F3EC9 /* Simulation.swift */,
+				DD4815531D646133008F3EC9 /* modelBoard.swift */,
+			);
+			path = "Noughts and Crosses";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4815461D6431A9008F3EC9 /* Noughts and Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD48154E1D6431AA008F3EC9 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */;
+			buildPhases = (
+				DD4815431D6431A9008F3EC9 /* Sources */,
+				DD4815441D6431A9008F3EC9 /* Frameworks */,
+				DD4815451D6431A9008F3EC9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts and Crosses";
+			productName = "Noughts and Crosses";
+			productReference = DD4815471D6431AA008F3EC9 /* Noughts and Crosses */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD48153F1D6431A9008F3EC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Joe Morris";
+				TargetAttributes = {
+					DD4815461D6431A9008F3EC9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = DD4815421D6431A9008F3EC9 /* Build configuration list for PBXProject "Noughts and Crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD48153E1D6431A9008F3EC9;
+			productRefGroup = DD4815481D6431AA008F3EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4815461D6431A9008F3EC9 /* Noughts and Crosses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4815431D6431A9008F3EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD48154B1D6431AA008F3EC9 /* main.swift in Sources */,
+				DD4815541D646133008F3EC9 /* modelBoard.swift in Sources */,
+				DD4815581D6464F9008F3EC9 /* game.swift in Sources */,
+				DD4815561D646370008F3EC9 /* textInputOutput.swift in Sources */,
+				DD48155C1D64F869008F3EC9 /* Simulation.swift in Sources */,
+				DD48155A1D646530008F3EC9 /* player.swift in Sources */,
+				DD4815521D64601D008F3EC9 /* physicalBoard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD48154C1D6431AA008F3EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD48154D1D6431AA008F3EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DD48154F1D6431AA008F3EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		DD4815501D6431AA008F3EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4815421D6431A9008F3EC9 /* Build configuration list for PBXProject "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD48154C1D6431AA008F3EC9 /* Debug */,
+				DD48154D1D6431AA008F3EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD48154E1D6431AA008F3EC9 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD48154F1D6431AA008F3EC9 /* Debug */,
+				DD4815501D6431AA008F3EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD48153F1D6431A9008F3EC9 /* Project object */;
+}
